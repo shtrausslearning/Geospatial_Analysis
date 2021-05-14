@@ -1,5 +1,6 @@
-import plotly.graph_objects as go
+map_token = 'pk.eyJ1Ijoic2h0cmF1c3NhcnQiLCJhIjoiY2tqcDU2dW56MDVkNjJ6angydDF3NXVvbyJ9.nx2c5XzUH9MwIv4KcWVGLA'
 
+import plotly.graph_objects as go
 ''' 
 Plot Choropleth Map using go.Choroplethmapbox
 import via geoJSON format (Create shp_to_JSON_example.py)
