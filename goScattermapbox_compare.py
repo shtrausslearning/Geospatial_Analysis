@@ -1,3 +1,4 @@
+# Unique mapbox token required for mapbox integration
 map_token = 'pk.eyJ1Ijoic2h0cmF1c3NhcnQiLCJhIjoiY2tqcDU2dW56MDVkNjJ6angydDF3NXVvbyJ9.nx2c5XzUH9MwIv4KcWVGLA'
 
 import plotly.express as px
