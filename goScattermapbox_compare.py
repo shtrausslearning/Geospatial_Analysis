@@ -1,8 +1,4 @@
 map_token = 'pk.eyJ1Ijoic2h0cmF1c3NhcnQiLCJhIjoiY2tqcDU2dW56MDVkNjJ6angydDF3NXVvbyJ9.nx2c5XzUH9MwIv4KcWVGLA'
-f= open("/kaggle/working/mapbox_token","w+")
-f.write('pk.eyJ1Ijoic2h0cmF1c3NhcnQiLCJhIjoiY2tqcDU2dW56MDVkNjJ6angydDF3NXVvbyJ9.nx2c5XzUH9MwIv4KcWVGLA')
-f.close()
-map_token = 'pk.eyJ1Ijoic2h0cmF1c3NhcnQiLCJhIjoiY2tqcDU2dW56MDVkNjJ6angydDF3NXVvbyJ9.nx2c5XzUH9MwIv4KcWVGLA'
 
 import plotly.express as px
 import plotly.graph_objects as go
@@ -13,8 +9,6 @@ import plotly.graph_objects as go
 '''
 # compare two paths
 def plot_geo(df1,df2):
-    # Figure factory requires physical file with mapbox code
-    px.set_mapbox_access_token(open(".\\kaggle\\working\\mapbox_token").read())
 
     fig = go.Figure()
 
