@@ -5,8 +5,8 @@ from sklearn.preprocessing import PolynomialFeatures
 pi = 4.0*np.arctan(1.0)
 
 '''
-# Kriging Model/Interpolation (Polynomial Regression + Full Gaussian Process Regression Model)
-# Commonly used Ensemble Approach for geospatial interpolation. 
+Kriging Model/Interpolation (Polynomial Regression + Full Gaussian Process Regression Model)
+Basic sklearn integration class (fit/predict)
 '''
 
 class Kriging(BaseEstimator,RegressorMixin):
