@@ -3,7 +3,6 @@ import plotly.figure_factory as ff
 Create a Discretised Hexbin Plot from Scattered Data
 Input lat,lon coordinate data from DataFrame
 '''
-
 # Hexbin Plot
 fig = ff.create_hexbin_mapbox(data_frame=df_perth,  # df
                               lat="LATITUDE",       # latitude
