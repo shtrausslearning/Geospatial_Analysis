@@ -1,11 +1,14 @@
-
-
 import numpy as np
 from sklearn.base import BaseEstimator,RegressorMixin
 from numpy.linalg import cholesky, det, lstsq, inv, eigvalsh, pinv
 from scipy.optimize import minimize
 import warnings; warnings.filterwarnings("ignore")
 pi = 4.0*np.arctan(1.0)
+
+'''
+Simplified Gaussian Process Regression Model
+Basic sklearn integration class (fit/predict)
+'''
 
 class GPR(BaseEstimator,RegressorMixin):
 
