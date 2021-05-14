@@ -6,9 +6,10 @@ map_token = 'pk.eyJ1Ijoic2h0cmF1c3NhcnQiLCJhIjoiY2tqcDU2dW56MDVkNjJ6angydDF3NXVv
 
 import plotly.express as px
 import plotly.graph_objects as go
-
-# Compare Two DataFrames w/ GPS coordinates (longitude & Latitude)
-
+'''
+Compare Two DataFrames w/ GPS coordinates (longitude & Latitude)
+Input DataFrames with lat,lon coordinates
+'''
 # compare two paths
 def plot_geo(df1,df2):
     # Figure factory requires physical file with mapbox code
