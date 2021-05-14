@@ -1,6 +1,8 @@
 import plotly.express as px
 import plotly.graph_objects as go
 
+# Compare Two DataFrames w/ GPS coordinates (longitude & Latitude)
+
 # compare two paths
 def plot_geo(df1,df2):
     # Figure factory requires physical file with mapbox code
